@@ -1,0 +1,181 @@
+{
+  "basics": {
+    "name": "Gabriela Surita",
+    "label": "Programmer",
+    "picture": "prof.jpg",
+    "email": "gabsurita@gmail.com",
+    "phone": "+55 (19) 98123-6676",
+    "website": "https://gabisurita.github.io",
+    "summary": "Hi! I'm Gabriela Surita. I'm a senior year computer engineering student at University of Campinas and certified part time software developer. My best skill is to be able to combine practical, self-taught, and quick hacking solutions with software engineering and technical knowledge.",
+    "location": {
+      "address": "968 Taruma St",
+      "postalCode": "13098-341",
+      "city": "Campinas",
+      "countryCode": "Brazil",
+      "region": "São Paulo"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "gabisurita",
+        "url": "https://github.com/gabisurita"
+      },
+      {
+        "network": "Twitter",
+        "username": "gabssurita",
+        "url": "https://twitter.com/gabssurita"
+      },
+      {
+        "network": "Facebook",
+        "username": "gabsurita",
+        "url": "https://facebook.com/gabsurita"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Spaço",
+      "position": "Software Developer",
+      "website": "http://spacocomunicacao.com.br/",
+      "startDate": "2012-12-01",
+      "endDate": "2013-12-01",
+      "summary": "Spaço is a local advertisement company focused on Web solutions for small businesses.",
+      "highlights": [
+        "Developing WordPress extensions in PHP.",
+        "Managing Servers and MySQL databases."
+      ]
+    },
+    {
+      "company": "3E Unicamp",
+      "position": "Contract Web Developer",
+      "website": "http://www.jr3e.com.br/",
+      "startDate": "2014-02-01",
+      "endDate": "2014-07-01",
+      "summary": "3E Unicamp is a Junior enterprise that provides consulting services from teachers and skilled students on the fields of Electrical and Computer Engineering.",
+      "highlights": [
+        "Build websites by contract using Django, Javascript and CSS."
+      ]
+    },
+    {
+      "company": "Mesonn Instruments",
+      "position": "Embedded Systems Developer",
+      "website": "https://www.linkedin.com/company/mesonn-instruments",
+      "startDate": "2015-03-01",
+      "endDate": "2015-08-01",
+      "summary": "Mesonn Instruments is a startup that produces digital measuring instruments for synchrotron laboratories and general purposes.",
+      "highlights": [
+        "Communicate FGPAs with Ethernet.",
+        "Writing Verilog/VHDL Hardware specifications.",
+        "Using embedded Linux and implementing network protocols in C/C++."
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "PyLadies Brazil",
+      "position": "Teacher",
+      "website": "http://brasil.pyladies.com/",
+      "startDate": "2015-04-01",
+      "summary": "Global movement to teach and encourage women to follow careers in computer science.",
+      "highlights": [
+        "Taught computer science introduction and machine learning courses with Python."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Campinas",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2013-02-01"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Open Source Platform for digital Simulation of Delay Based PUFs",
+      "publisher": "Proceedings of the 18th Undergraduate Scientific Research Congress of Unicamp",
+      "releaseDate": "2015-11-01",
+      "website": "bit.ly/freepuf",
+      "summary": "Propose and evaluate a digital simulation model for Physical Unclonable Functions hardware security primitives."
+    },
+    {
+      "name": "Cylindrical Reconvergence PUF",
+      "publisher": "Proceedings of the 19th Euromicro Symposium on Digital Systems Design",
+      "releaseDate": "2016-07-01",
+      "website": "bit.ly/freepuf",
+      "summary": "Propose a new architecture of Physical Unclonable Function that shows a better trade-off between hardware footprint and resistance to machine learning modelling attacks."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Frameworks",
+      "level": "",
+      "keywords": [
+        "Django",
+        "Pyramid",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Database Modelling and Management",
+      "level": "",
+      "keywords": [
+        "MySQL",
+        "MongoDB",
+        "ORM"
+      ]
+    },
+    {
+      "name": "Front-end Web Design",
+      "level": "",
+      "keywords": [
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "Embedded Systems",
+      "level": "",
+      "keywords": [
+        "Verilog",
+        "VHDL",
+        "Embedded C/C++ libraries",
+        "Embedded Linux"
+      ]
+    },
+    {
+      "name": "Data Science",
+      "level": "",
+      "keywords": [
+        "Python Scikit-learn",
+        "Spark Mlib",
+        "R caret",
+        "Theano"
+      ]
+    },
+    {
+      "name": "Multipurpose Programming Languages",
+      "level": "",
+      "keywords": [
+          "Python",
+          "Javascript",
+          "C/C++",
+          "Java",
+          "PHP",
+          "R"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English"
+    },
+    {
+      "language": "Spanish"
+    }
+  ]
+}
