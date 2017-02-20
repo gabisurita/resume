@@ -1,12 +1,10 @@
 {
   "basics": {
     "name": "Gabriela Surita",
-    "label": "Programmer",
-    "picture": "prof.jpg",
     "email": "gabsurita@gmail.com",
     "phone": "+55 (19) 98123-6676",
     "website": "https://gabisurita.github.io",
-    "summary": "Hi! I'm Gabriela Surita. I'm a senior year computer engineering student at University of Campinas and certified part time software developer. My best skill is to be able to combine practical, self-taught, and quick hacking solutions with software engineering and technical knowledge.",
+    "summary": "Hi! I'm Gabriela Surita. I'm a senior year computer engineering student at University of Campinas and certified part time software developer. My best skill is to be able to combine practical, self-taught, and quick hacking solutions with software engineering good practices.",
     "location": {
       "address": "968 Taruma St",
       "postalCode": "13098-341",
@@ -34,39 +32,74 @@
   },
   "work": [
     {
-      "company": "Spaço",
-      "position": "Software Developer",
-      "website": "http://spacocomunicacao.com.br/",
-      "startDate": "2012-12-01",
-      "endDate": "2013-12-01",
-      "summary": "Spaço is a local advertisement company focused on Web solutions for small businesses.",
+      "company": "Software Freedom Conservancy - Mozilla",
+      "position": "Outreachy Intern",
+      "website": "https://www.gnome.org/outreachy/",
+      "startDate": "2016-12-06",
+      "endDate": "2017-03-06",
+      "summary": "Conservancy is a non-profit organization that promotes Outreachy - An internship program for people underrepresented in the computer science and free software community.",
       "highlights": [
-        "Developing WordPress extensions in PHP.",
-        "Managing Servers and MySQL databases."
+        "Mainly worked with a Mozilla developed Open Source distributed HTTP storage service - Kinto.",
+        "Documented, tested and patched some inconsistencies in the Kinto API.",
+        "Worked with OpenAPI/Swagger documentation standards writing automated documentation tools and API compliance test environments.",
+        "Directly contributed to more than a dozen open software repositories.",
+        "Mastered continuous integration, TDD, and other free software development techniques.",
+        "Submitted patches to large projects such as Pyramid, Colander and Swagger.",
+        "Worked with a diverse distributed team."
+      ]
+    },
+    {
+      "company": "Mesonn Instruments",
+      "position": "Contract Embedded Systems Developer",
+      "website": "https://www.linkedin.com/company/mesonn-instruments",
+      "startDate": "2016-04-01",
+      "endDate": "2016-08-01",
+      "summary": "Mesonn Instruments is a startup that produces digital measuring instruments for synchrotron laboratories and general purposes.",
+      "highlights": [
+        "Communicating pure FGPA designs with Ethernet.",
+        "Writing Verilog/VHDL Hardware specifications.",
+        "Using embedded Linux and in C/C++.",
+        "Reimplementing network protocols on highly constrained environments."
+      ]
+    },
+    {
+      "company": "LASCA Unicamp - Intel",
+      "position": "Junior Researcher",
+      "website": "http://www.lasca.ic.unicamp.br/",
+      "startDate": "2013-12-01",
+      "endDate": "2016-06-01",
+      "summary": "LASCA stands for Laboratory of Security and Cryptography and is the main research facility for digital security from University of Campinas. LASCA had a partnership with Intel that included scholarships for Junior researchers on Intel related projects.",
+      "highlights": [
+        "Worked with cryptographic hardware primitives designs such as TRNGs and PUFs.",
+        "Studied with Machine learning based attacks on security primitives.",
+        "Authored two articles, one for an international conference, about PUF Security properties.",
+        "Contributed to other research projects implementing efficient hardware-based cryptosystems on topics like electronic voting and low cost IoT authentication."
       ]
     },
     {
       "company": "3E Unicamp",
       "position": "Contract Web Developer",
       "website": "http://www.jr3e.com.br/",
-      "startDate": "2014-02-01",
-      "endDate": "2014-07-01",
+      "startDate": "2013-04-01",
+      "endDate": "2013-09-01",
       "summary": "3E Unicamp is a Junior enterprise that provides consulting services from teachers and skilled students on the fields of Electrical and Computer Engineering.",
       "highlights": [
-        "Build websites by contract using Django, Javascript and CSS."
+        "Worked as a contract software developer building websites and webservices in Django.",
+        "Wrote Front-End applications using Javascript, CSS and HTML",
+        "Used continuous integration and Test Driven Development."
       ]
     },
     {
-      "company": "Mesonn Instruments",
-      "position": "Embedded Systems Developer",
-      "website": "https://www.linkedin.com/company/mesonn-instruments",
-      "startDate": "2015-03-01",
-      "endDate": "2015-08-01",
-      "summary": "Mesonn Instruments is a startup that produces digital measuring instruments for synchrotron laboratories and general purposes.",
+      "company": "Spaço",
+      "position": "Software Developer",
+      "website": "http://spacocomunicacao.com.br/",
+      "startDate": "2012-03-01",
+      "endDate": "2013-03-01",
+      "summary": "Spaço is a local advertisement company focused on Web solutions for small businesses.",
       "highlights": [
-        "Communicate FGPAs with Ethernet.",
-        "Writing Verilog/VHDL Hardware specifications.",
-        "Using embedded Linux and implementing network protocols in C/C++."
+        "Developed Applications and WordPress extensions in PHP.",
+        "Managed Apache Servers and MySQL databases.",
+        "Co-managed a plural team mainly composed by designers."
       ]
     }
   ],
@@ -76,9 +109,10 @@
       "position": "Teacher",
       "website": "http://brasil.pyladies.com/",
       "startDate": "2015-04-01",
+      "endDate": "",
       "summary": "Global movement to teach and encourage women to follow careers in computer science.",
       "highlights": [
-        "Taught computer science introduction and machine learning courses with Python."
+        "Teach computer science introduction and machine learning courses to women and teenagers using Python."
       ]
     }
   ],
@@ -86,96 +120,96 @@
     {
       "institution": "University of Campinas",
       "area": "Computer Engineering",
-      "studyType": "Bachelor",
-      "startDate": "2013-02-01"
+      "studyType": "Bachelor in",
+      "startDate": "2013-02-01",
+      "endDate": "",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Impacta",
+      "area": "Software development",
+      "studyType": "Certificate Program in",
+      "startDate": "2009-02-01",
+      "endDate": "2011-11-30",
+      "gpa": "",
+      "courses": []
     }
+
   ],
+  "awards": [],
   "publications": [
+    {
+      "name": "Cylindrical Reconvergence PUF",
+      "publisher": "Proceedings of the 19th Euromicro Symposium on Digital Systems Design",
+      "releaseDate": "2016-07-01",
+      "website": "bit.ly/crpuf",
+      "summary": "Propose a new architecture of Physical Unclonable Function that shows a better trade-off between hardware footprint and resistance to machine learning modelling attacks."
+    },
     {
       "name": "Open Source Platform for digital Simulation of Delay Based PUFs",
       "publisher": "Proceedings of the 18th Undergraduate Scientific Research Congress of Unicamp",
       "releaseDate": "2015-11-01",
       "website": "bit.ly/freepuf",
       "summary": "Propose and evaluate a digital simulation model for Physical Unclonable Functions hardware security primitives."
-    },
-    {
-      "name": "Cylindrical Reconvergence PUF",
-      "publisher": "Proceedings of the 19th Euromicro Symposium on Digital Systems Design",
-      "releaseDate": "2016-07-01",
-      "website": "bit.ly/freepuf",
-      "summary": "Propose a new architecture of Physical Unclonable Function that shows a better trade-off between hardware footprint and resistance to machine learning modelling attacks."
     }
   ],
   "skills": [
     {
-      "name": "Web Frameworks",
+      "name": "Programming Languages",
       "level": "",
       "keywords": [
+        "Python (Proficient)",
+        "C/C++ (Advanced)",
+        "Java",
+        "Javascript",
+        "PHP",
+        "R",
+        "Rust",
+        "Shell (bash, csh, zsh)"
+      ]
+    },
+    {
+      "name": "Technologies",
+      "level": "",
+      "keywords": [
+        "Apache",
         "Django",
-        "Pyramid",
-        "Flask"
-      ]
-    },
-    {
-      "name": "Database Modelling and Management",
-      "level": "",
-      "keywords": [
+        "Flask",
+        "FPGA",
+        "Git/SVN",
+        "jQuery",
+        "Metasploit",
         "MySQL",
-        "MongoDB",
-        "ORM"
-      ]
-    },
-    {
-      "name": "Front-end Web Design",
-      "level": "",
-      "keywords": [
-        "CSS",
-        "Javascript"
-      ]
-    },
-    {
-      "name": "Embedded Systems",
-      "level": "",
-      "keywords": [
-        "Verilog",
-        "VHDL",
-        "Embedded C/C++ libraries",
-        "Embedded Linux"
-      ]
-    },
-    {
-      "name": "Data Science",
-      "level": "",
-      "keywords": [
-        "Python Scikit-learn",
-        "Spark Mlib",
-        "R caret",
-        "Theano"
-      ]
-    },
-    {
-      "name": "Multipurpose Programming Languages",
-      "level": "",
-      "keywords": [
-          "Python",
-          "Javascript",
-          "C/C++",
-          "Java",
-          "PHP",
-          "R"
+        "OpenAPI",
+        "OpenSSH",
+        "PostgreSQL",
+        "Pyramid",
+        "Travis/Coveralls",
+        "Spark MLlib",
+        "Symfony PHP",
+        "WireShark"
       ]
     }
-  ],
+   ],
   "languages": [
     {
       "language": "Portuguese",
       "fluency": "Native speaker"
     },
     {
-      "language": "English"
+      "language": "English",
+      "fluency": "Fluent"
     },
     {
-      "language": "Spanish"
+      "language": "Spanish",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Read and write well, Speaks poorly"
     }
-  ]
+  ],
+  "interests": [],
+  "references": []
 }

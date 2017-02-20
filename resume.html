@@ -1,0 +1,633 @@
+<!doctype html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	<title>Gabriela Surita</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<style>
+		/* Utils */
+/*----- Colors -----*/
+/*----- Fonts -----*/
+/*----- Dimensions and sizes -----*/
+/* Base */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Josefin Sans Light'), local('JosefinSans-Light'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04zwV_pQ1T3xN3K1c3sB361us.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Sans Bold'), local('JosefinSans-Bold'), url(https://fonts.gstatic.com/s/josefinsans/v9/C6HYlRF50SGJq1XyXj04z306qf9KHRHwsVx7iw5MXmY.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/nj47mAZe0mYUIySgfn0wpQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 300;
+  src: local('Lato Light Italic'), local('Lato-LightItalic'), url(https://fonts.gstatic.com/s/lato/v11/2HG_tEPiQ4Z6795cGfdivKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
+
+body {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  background: #f8f8f8;
+  margin: 50px 0 100px;
+  letter-spacing: .3px;
+  color: #39424B; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+  margin: 0; }
+
+h1 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 1px; }
+
+h2 {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: .5px; }
+
+h3 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: .4px; }
+  h3.bold {
+    font-weight: 700; }
+
+h4 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12px; }
+  h4.bold {
+    font-weight: 700; }
+
+h5 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 11px; }
+  h5.italic {
+    font-style: italic; }
+
+h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 10px; }
+
+a {
+  color: inherit;
+  text-decoration: inherit; }
+  a:hover {
+    color: #2895F1; }
+  a .fa-external-link {
+    font-size: 10px;
+    vertical-align: text-top; }
+
+p,
+li {
+  font-size: 11px; }
+
+blockquote {
+  font-size: 11px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  margin: 10px 25px; }
+
+em {
+  color: #999; }
+
+ul {
+  margin: 10px 0 0;
+  -webkit-padding-start: 25px; }
+  ul li {
+    padding-left: 10px; }
+  ul.minimal {
+    list-style: none;
+    padding: 0; }
+    ul.minimal li {
+      margin-bottom: 3px;
+      padding-left: 0; }
+  ul.two-column {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 28px;
+    -moz-column-count: 2;
+         column-count: 2;
+    -moz-column-gap: 28px;
+         column-gap: 28px; }
+    ul.two-column li {
+      padding-left: 0; }
+
+@page {
+  size: A4; }
+
+.container {
+  padding-top: 20px; }
+
+.keyline {
+  width: 45px;
+  margin: 8px 0 10px;
+  border-top: 1px solid #56817A; }
+
+.pull-left {
+  float: left; }
+
+.pull-right {
+  float: right; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.profile-pic {
+  margin-top: -5px;
+  margin-right: 18px; }
+  .profile-pic img {
+    height: 52px;
+    width: 52px;
+    border-radius: 50%;
+    border: 2px solid #56817A; }
+
+.summary {
+  margin: 5px 0 5px; }
+
+/* Layouts */
+.page {
+  background: white;
+  width: 612px;
+  min-height: 792px;
+  display: block;
+  margin: 0 auto;
+  border-top: 10px solid #56817A;
+  padding: 36px 22px 30px 34px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.5); }
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.left-column {
+  float: left;
+  width: 160px;
+  margin-right: 20px;
+  word-wrap: break-word; }
+
+.right-column {
+  width: auto;
+  overflow: hidden; }
+
+.item {
+  margin-bottom: 15px; }
+  .item:last-child {
+    margin-bottom: 0; }
+
+@media print {
+  body {
+    margin: 0; }
+  .page {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 36px 0 30px;
+    box-shadow: none; }
+    .page .resume-header,
+    .page .resume-content {
+      padding: 0 22px 0 34px; }
+  .container {
+    page-break-inside: avoid; }
+  .work-container .item {
+    page-break-inside: avoid; }
+  .fa-external-link {
+    display: none; } }
+
+/* Components */
+.info-tag-container {
+  margin-bottom: 5px; }
+  .info-tag-container .fa {
+    font-size: 14px;
+    width: 12px;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle; }
+    .info-tag-container .fa.fa-map-marker {
+      font-size: 16px; }
+    .info-tag-container .fa.fa-mobile {
+      font-size: 18px; }
+    .info-tag-container .fa.fa-envelope-o {
+      font-size: 12px; }
+    .info-tag-container .fa.fa-desktop {
+      font-size: 11px; }
+    .info-tag-container .fa.fa-external-link {
+      width: auto;
+      font-size: inherit;
+      vertical-align: text-top; }
+  .info-tag-container .info-text {
+    font-size: 9px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 139px; }
+
+.references-container .fa {
+  font-size: 14px; }
+
+	</style>
+	</head>
+	<body>
+		<main id="resume" class="page">
+			<header class="resume-header clearfix">
+			    <div class="profile-header pull-left">
+			        <h1>Gabriela Surita</h1>
+			        <h2></h2>
+			    </div>
+			    <div class="profile-pic pull-right">
+			        <img src="" alt="profile-pic">
+			    </div>
+			</header>
+			<div class="resume-content">
+				<aside class="left-column">
+					<div class="container about-container">
+					    <div class="title">
+					        <h3>About</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-map-marker"></i>
+					        
+					                <h6 class="info-text">968 Taruma St<br/>Campinas São Paulo 13098-341</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-envelope-o"></i>
+					        
+					                <h6 class="info-text">gabsurita@gmail.com</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-mobile"></i>
+					        
+					                <h6 class="info-text">+55 (19) 98123-6676</h6>
+					        </div>
+					        <div class="info-tag-container">
+					            <i class="fa fa-desktop"></i>
+					        
+					                <h6 class="info-text">
+					                    <a href="https://gabisurita.github.io" target="_blank">
+					                        gabisurita.github.io <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					                </h6>
+					        </div>
+					                         <div class="info-tag-container">
+					                             <i class="fa fa-github"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://github.com/gabisurita" target="_blank">
+					                                         gabisurita <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-twitter"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://twitter.com/gabssurita" target="_blank">
+					                                         gabssurita <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div>                         <div class="info-tag-container">
+					                             <i class="fa fa-facebook"></i>
+					                         
+					                                 <h6 class="info-text">
+					                                     <a href="https://facebook.com/gabsurita" target="_blank">
+					                                         gabsurita <i class="fa fa-external-link" aria-hidden="true"></i>
+					                                     </a>
+					                                 </h6>
+					                         </div></section>
+					    <div class="skills-container">
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Programming Languages</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Python (proficient)</h6></li>
+					                            <li><h6>C/C++ (Advanced)</h6></li>
+					                            <li><h6>Java</h6></li>
+					                            <li><h6>Javascript</h6></li>
+					                            <li><h6>PHP</h6></li>
+					                            <li><h6>R</h6></li>
+					                            <li><h6>Rust</h6></li>
+					                            <li><h6>Shell (bash, csh, zsh)</h6></li>
+					                    </ul>
+					            </section>
+					            <section class="container">
+					                    <div class="title">
+					                        <h3>Technologies</h3>
+					                        <div class="keyline"></div>
+					                    </div>                    <ul class="minimal">
+					                            <li><h6>Apache</h6></li>
+					                            <li><h6>Django</h6></li>
+					                            <li><h6>Flask</h6></li>
+					                            <li><h6>FPGA</h6></li>
+					                            <li><h6>Git/SVN</h6></li>
+					                            <li><h6>jQuery</h6></li>
+					                            <li><h6>Metasploit</h6></li>
+					                            <li><h6>MySQL</h6></li>
+					                            <li><h6>OpenAPI</h6></li>
+					                            <li><h6>OpenSSH</h6></li>
+					                            <li><h6>PostgreSQL</h6></li>
+					                            <li><h6>Pyramid</h6></li>
+					                            <li><h6>Travis/Coveralls</h6></li>
+					                            <li><h6>Spark MLlib</h6></li>
+					                            <li><h6>Symfony PHP</h6></li>
+					                            <li><h6>WireShark</h6></li>
+					                    </ul>
+					            </section>
+					    </div>
+					    <div class="container languages-container">
+					        <div class="title">
+					            <h3>Languages</h3>
+					            <div class="keyline"></div>
+					        </div>
+					        <ul class="minimal">
+					                <li>
+					                    <h6>Portuguese <em>(Native speaker)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>English <em>(Fluent)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>Spanish <em>(Fluent)</em></h6>
+					                </li>
+					                <li>
+					                    <h6>German <em>(Read and write well, Speaks poorly)</em></h6>
+					                </li>
+					        </ul>
+					    </div>
+				</aside>
+				<div class="right-column">
+					        <div class="container summary-container">
+					            <div class="title">
+					                <h3>Summary</h3>
+					                <div class="keyline"></div>
+					            </div>            <p class="summary">
+					                Hi! I&#x27;m Gabriela Surita. I&#x27;m a senior year computer engineering student at University of Campinas and certified part time software developer. My best skill is to be able to combine practical, self-taught, and quick hacking solutions with software engineering good practices.
+					            </p>
+					        </div>
+					<div class="container work-container">
+					    <div class="title">
+					        <h3>Experience</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://www.gnome.org/outreachy/" target="_blank">
+					                            Software Freedom Conservancy - Mozilla <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">12/2016</span>
+					                        <span class="endDate"> - 03/2017</span>
+					                </h5>
+					            </div>
+					            <h4>Outreachy Intern</h4>
+					
+					            <p class="summary">Conservancy is a non-profit organization that promotes Outreachy - An internship program for people underrepresented in the computer science and free software community.</p>
+					
+					            <ul>
+					                <li>Mainly worked with an Open Source distributed HTTP storage service - Kinto.</li>
+					                <li>Documented, tested and patched some inconsistencies in the Kinto API.</li>
+					                <li>Worked with OpenAPI/Swagger documentation standards writing automated documentation tools and API compliance test environments.</li>
+					                <li>Directly contributed to more than a dozen open software repositories.</li>
+					                <li>Mastered continuous integration, TDD, and other free software development techniques.</li>
+					                <li>Submitted patches to large projects such as Pyramid, Colander and Swagger.</li>
+					                <li>Worked with a diverse distributed team.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="https://www.linkedin.com/company/mesonn-instruments" target="_blank">
+					                            Mesonn Instruments <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2016</span>
+					                        <span class="endDate"> - 08/2016</span>
+					                </h5>
+					            </div>
+					            <h4>Contract Embedded Systems Developer</h4>
+					
+					            <p class="summary">Mesonn Instruments is a startup that produces digital measuring instruments for synchrotron laboratories and general purposes.</p>
+					
+					            <ul>
+					                <li>Communicating pure FGPA designs with Ethernet.</li>
+					                <li>Writing Verilog/VHDL Hardware specifications.</li>
+					                <li>Using embedded Linux and in C/C++.</li>
+					                <li>Reimplementing network protocols on highly constrained environments.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="http://www.lasca.ic.unicamp.br/" target="_blank">
+					                            LASCA Unicamp - Intel <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">12/2013</span>
+					                        <span class="endDate"> - 06/2016</span>
+					                </h5>
+					            </div>
+					            <h4>Junior Researcher</h4>
+					
+					            <p class="summary">LASCA stands for Laboratory of Security and Cryptography and is the main research facility for digital security from University of Campinas. LASCA had a partnership with Intel that included scholarships for Junior researchers on Intel related projects.</p>
+					
+					            <ul>
+					                <li>Worked with cryptographic hardware primitives designs such as TRNGs and PUFs.</li>
+					                <li>Studied with Machine learning based attacks on security primitives.</li>
+					                <li>Authored two articles, one for an international conference, about PUF Security properties.</li>
+					                <li>Contributed to other research projects implementing efficient hardware-based cryptosystems on topics like electronic voting and low cost IoT authentication.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="http://www.jr3e.com.br/" target="_blank">
+					                            3E Unicamp <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">04/2013</span>
+					                        <span class="endDate"> - 09/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Contract Web Developer</h4>
+					
+					            <p class="summary">3E Unicamp is a Junior enterprise that provides consulting services from teachers and skilled students on the fields of Electrical and Computer Engineering.</p>
+					
+					            <ul>
+					                <li>Worked as a contract software developer building websites and webservices in Django.</li>
+					                <li>Wrote Front-End applications using Javascript, CSS and HTML</li>
+					                <li>Used continuous integration and Test Driven Development.</li>
+					            </ul>
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        <a href="http://spacocomunicacao.com.br/" target="_blank">
+					                            Spaço <i class="fa fa-external-link" aria-hidden="true"></i>
+					                        </a>
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">03/2012</span>
+					                        <span class="endDate"> - 03/2013</span>
+					                </h5>
+					            </div>
+					            <h4>Software Developer</h4>
+					
+					            <p class="summary">Spaço is a local advertisement company focused on Web solutions for small businesses.</p>
+					
+					            <ul>
+					                <li>Developed Applications and WordPress extensions in PHP.</li>
+					                <li>Managed Apache Servers and MySQL databases.</li>
+					                <li>Co-managed a plural team mainly composed by designers.</li>
+					            </ul>
+					        </section>
+					</div>
+					<div class="container volunteer-container">
+					    <div class="title">
+					        <h3>Volunteer</h3>
+					        <div class="keyline"></div>
+					    </div>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="http://brasil.pyladies.com/" target="_blank">
+					                        PyLadies Brazil <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    <span class="startDate">04/2015</span>
+					                    <span class="endDate"> - Present</span>
+					            </h5>
+					        </div>        <h5>Teacher</h5>
+					
+					        <p class="summary">Global movement to teach and encourage women to follow careers in computer science.</p>
+					
+					        <ul>
+					            <li>Teach computer science introduction and machine learning courses to women and teenagers using Python.</li>
+					        </ul>
+					    </section>
+					</div>
+					<div class="container education-container">
+					    <div class="title">
+					        <h3>Education</h3>
+					        <div class="keyline"></div>
+					    </div>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        University of Campinas
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">02/2013</span>
+					                        <span class="endDate"> - Present</span>
+					                </h5>
+					            </div>
+					            <h4>Bachelor in Computer Engineering</h4>
+					
+					
+					        </section>
+					        <section class="item">
+					            <div class="section-header clearfix">
+					                <h3 class="bold pull-left">
+					                        Impacta
+					                </h3>
+					                <h5 class="italic pull-right">
+					                        <span class="startDate">02/2009</span>
+					                        <span class="endDate"> - 11/2011</span>
+					                </h5>
+					            </div>
+					            <h4>Certificate Program in Software development</h4>
+					
+					
+					        </section>
+					</div>
+					<div class="container publications-container">
+					    <div class="title">
+					        <h3>Publications</h3>
+					        <div class="keyline"></div>
+					    </div>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="bit.ly/crpuf" target="_blank">
+					                        Cylindrical Reconvergence PUF <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    07/2016
+					                    </h5>
+					        </div>
+					        <h5 class="awarder">Proceedings of the 19th Euromicro Symposium on Digital Systems Design</h5>
+					
+					        <p class="summary">Propose a new architecture of Physical Unclonable Function that shows a better trade-off between hardware footprint and resistance to machine learning modelling attacks.</p>
+					
+					    </section>
+					    <section class="item">
+					        <div class="section-header clearfix">
+					            <h3 class="bold pull-left">
+					                    <a href="bit.ly/freepuf" target="_blank">
+					                        Open Source Platform for digital Simulation of Delay Based PUFs <i class="fa fa-external-link" aria-hidden="true"></i>
+					                    </a>
+					            </h3>
+					            <h5 class="italic pull-right">
+					                    11/2015
+					                    </h5>
+					        </div>
+					        <h5 class="awarder">Proceedings of the 18th Undergraduate Scientific Research Congress of Unicamp</h5>
+					
+					        <p class="summary">Propose and evaluate a digital simulation model for Physical Unclonable Functions hardware security primitives.</p>
+					
+					    </section>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>
